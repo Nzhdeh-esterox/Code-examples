@@ -1,0 +1,16 @@
+{
+  "name": "draganddroppw",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.26.0",
+    "playwright-extra": "^4.3.5",
+    "puppeteer-extra-plugin-stealth": "^2.11.1"
+  }
+}
