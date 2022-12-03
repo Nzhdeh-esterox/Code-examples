@@ -41,7 +41,6 @@ function createUsers() {
     const users = [];
 
     const admin = factory.createUser('admin');
-    admin.checkUser();
     users.push(admin);
 
     const user = factory.createUser('user');

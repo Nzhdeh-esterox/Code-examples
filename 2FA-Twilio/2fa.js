@@ -38,9 +38,9 @@ const SendCodeToVerifyPhone = async (req, res, next) => {
 
         return res.status(200).send({status: true, message: 'Success'});
       }
-    } else {
-      return res.status(200).send({status: false, message: 'Error!'});
     }
+
+    return res.status(200).send({status: false, message: 'Error!'});
 
   } catch (err) {
     next(err);

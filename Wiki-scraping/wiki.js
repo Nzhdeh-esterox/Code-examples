@@ -5,7 +5,7 @@ const fs = require('fs');
 const wiki = require('wikijs').default;
 const {parse} = require('node-html-parser');
 
-const articleName = 'List of people from Phoenix';
+const articleName = 'List of people from New York';
 
 
 wiki().find(articleName).then(async (page) => {
